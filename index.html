@@ -13,40 +13,41 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
-<div class="min-h-screen w-[520px] p-10 m- bg-[#FFFFFF] shadow-xl rounded-xl mx-auto space-y-2">
-    <div class="flex justify-center p-6">
-        <img src="./assets/github-logo.png" alt="">
-    </div>
-    <div class="text-center">
-        <h1 class="font-bold text-2xl">GitHub Issues Tracker</h1>
-        <p class="text-[#64748B]">Sign in to manage your issues</p>
-    </div>
-
-    <div class="card bg-base-100 w-full max-w-sm shrink-0 mx-auto ">
-        <div class="card-body">
-            <fieldset class="fieldset max-w-sm">
-                <label class="label font-bold text-[#1F2937] ">Username</label>
-                <input type="email" class="input" placeholder="Email" />
-                <label class="label font-bold text-[#1F2937]">Password</label>
-                <input type="password" class="input" placeholder="Password" />
-                <button class="btn btn-primary mt-4">Sign In</button>
-            </fieldset>
-        </div>
-    </div>
-
-    <div>
-        <p class="text-center text-[#64748B] p-2">Demo Credentials:</p>
-        <div class="bg-base-200 rounded-xl p-5 text-center">
-            <p><samp class="font-bold">Username</samp>: admin</p>
-            <p> <samp class="font-bold">Password</samp>: admin123</p>
-        </div>
-    </div>
-
-</div>
-</div>
 
 <body>
 
+    <div class="min-h-screen w-[520px] p-10 m- bg-[#FFFFFF] shadow-xl rounded-xl mx-auto space-y-2">
+        <div class="flex justify-center p-6">
+            <img src="./assets/github-logo.png" alt="">
+        </div>
+        <div class="text-center">
+            <h1 class="font-bold text-2xl">GitHub Issues Tracker</h1>
+            <p class="text-[#64748B]">Sign in to manage your issues</p>
+        </div>
+
+        <div class="card bg-base-100  max-w-sm shrink-0 mx-auto ">
+            <div class="card-body">
+                <fieldset class="fieldset max-w-sm">
+                    <label class="label font-bold text-[#1F2937] ">Username</label>
+                    <input id="input-user-name" type="username" class="input" placeholder="Enter Username" />
+                    <label class="label font-bold text-[#1F2937]">Password</label>
+                    <input id="input-passeord" type="password" class="input" placeholder="Enter Password" />
+                    <button id="login-btn" class="btn btn-primary mt-4">Sign In</button>
+                </fieldset>
+            </div>
+        </div>
+
+        <div>
+            <p class="text-center text-[#64748B] p-2">Demo Credentials:</p>
+            <div class="bg-base-200 rounded-xl p-5 text-center">
+                <p><samp class="font-bold">Username</samp>: admin</p>
+                <p> <samp class="font-bold">Password</samp>: admin123</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script/login.js"></script>
 </body>
 
 </html>
